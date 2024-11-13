@@ -1,0 +1,32 @@
+# ide
+*.pyc
+__pycache
+.vscode
+.idea
+.pytest*
+
+# mac
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+
+# env configs
+.env
+venv
+# logs
+./services/web/logs
+*.log
+
+# custom debug for pycharm
+debug*
+
+# virtualenv
+env
+
+# cov
+htmlcov
+.coverage
